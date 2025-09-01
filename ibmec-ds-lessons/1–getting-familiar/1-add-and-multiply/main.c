@@ -2,12 +2,12 @@
 
 int main ()
 {
-    int num1, num2, ans;
+    int num1, num2, target;
 
     scanf("%d", &num1);
     scanf("%d", &num2);
 
-    ans = (num1 + num2) * 3;
+    target = (num1 + num2) * 3;
 
     printf("%d", ans);
     return 0;
