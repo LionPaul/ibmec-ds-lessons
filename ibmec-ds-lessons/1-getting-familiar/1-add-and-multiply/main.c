@@ -9,6 +9,6 @@ int main ()
 
     target = (num1 + num2) * 3;
 
-    printf("%d", ans);
+    printf("%d", target);
     return 0;
 }
