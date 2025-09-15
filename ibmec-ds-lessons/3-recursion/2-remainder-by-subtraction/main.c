@@ -13,10 +13,10 @@ int division (int dividend, int divisor)
 int main ()
 {
     int dividend, divisor;
-    printf("\nEnter the Dividend: ");
+    printf("\nEnter the dividend: ");
     scanf("%d", &dividend);
 
-    printf("\nEnter other value: ");
+    printf("\nEnter the divisor: ");
     scanf("%d", &divisor);
 
     printf("The remainder of dividing %d by %d is %d", dividend, divisor, division(dividend, divisor));
