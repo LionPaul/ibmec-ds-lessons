@@ -9,7 +9,7 @@ int main ()
     {
         printf("Enter the value: ");
         scanf("%d", &vet1[i]);
-        vet2[4 - i] = i;
+        vet2[4 - i] = vet1[i];
     }
       for (i = 0; i < 5; i++)
     {
